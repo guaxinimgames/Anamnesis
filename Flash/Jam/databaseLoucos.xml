@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseLoucos>
+	<!--How this fugging thing work?-->
+	<!--Basicamente se constroi um louco assim-->
+	<!--
+	
+	<louco>
+		<nome>nome dele</nome>
+		<sexo>sexo</sexo>
+		<doenca>qual o problema dele</doenca>
+		<chat>
+		/*
+		*Aqui o medico faz uma "entrevista", o louco fala e o medico analisa
+		*/
+			<patient></patient>
+			<analiseChat></analiseChat>
+		<chat>
+		<reactions>
+			/*
+			* Existem 8 interacoes que o louco pode fazer na sala
+			* Basta colocar o texto a ser puxado para cada uma delas
+			*na lacuna indicada
+			*/
+			<gramofone></gramofone>
+			<quadro></quadro>
+			<jogos></jogos>
+			<lousa></lousa>
+			<livros></livros>
+			<janela></janela>
+			<casaco></casaco>
+			<remedio></remedio>
+		</reaction>
+		/*
+		*Aqui temos os erros de diagnostico
+		*1 erro de diagnostico
+		*2 erro fatal
+		*/
+		<erro>
+			<erroDiagnostico1></erroDiagnostico1>
+			<erroDiagnostico2></erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	<louco>
+		<nome>
+			
+		</nome>
+		<sexo>
+			
+		</sexo>
+		<doenca>
+			
+		</doenca>
+		<chat>
+		
+			<patient>
+				
+			</patient>
+			<analiseChat>
+				
+			</analiseChat>
+		<chat>
+		<reactions>
+			
+			<gramofone>
+				
+			</gramofone>
+			<quadro>
+				
+			</quadro>
+			<jogos>
+				
+			</jogos>
+			<lousa>
+				
+			</lousa>
+			<livros>
+				
+			</livros>
+			<janela>
+				
+			</janela>
+			<casaco>
+				
+			</casaco>
+			<remedio>
+				
+			</remedio>
+		</reaction>
+		
+		<erro>
+			<erroDiagnostico1>
+				
+			</erroDiagnostico1>
+			<erroDiagnostico2>
+				
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	-->
+	
+<!-- LOUCO 1-->	
+	
+	<louco>
+	
+		<nome>[Louco1]</nome>
+		<sexo>Male</sexo>
+		<!--<doenca>Paralisia geral progressiva</doenca>-->
+		<doenca>Progressive general paralysis</doenca>
+		<chat>
+			<patient>
+				<b>[Louco1]:</b> "I was a great war hero, did you know? I my batlaion was always the best, even though I never fought in the frontlines. My country should be pruod of me! I am with no doubt, graet a soldier, my army won many battles by my command! I was even cald as “One Man Amry”. I won many battles alone, almost. Even when everyone surrenderd in my battlion, I went and killed soldier per soledier. Then, why should noone remember me? Why did I ended up here? I’ll tell you. That was the way things are."
+			</patient>
+			<analiseChat>
+				*The patient seems to have great delusions of grandieur, since the events he narrated are not only illogical, but non existent. He has also difficulties in handling words and the proper way of constructing sentences.*
+			</analiseChat>
+			
+		</chat>
+		
+		<reactions>
+			<jogos>
+				*The patient tries to make a castle of cards, but it falls*
+				[Louco1]: "see how great works on minds? This shall art! there are none like those."
+			</jogos>
+			<janela>
+				*He stares the window for a while, but doesn't say nothing*
+			</janela>
+			<gramofone>
+				*He changes the vinyl, and, hearing a march, keeps starings blankly at the wall.*
+			</gramofone>
+			<livros>
+				*He tries to read the book, but seens to have problems doing that*	
+				[Louco1]: "I can't believe this. Look how people doesn't know history! No reference about me!"
+			</livros>
+			<remedio>
+				*He doesn't pay too much attention.*
+			</remedio>	
+			<lousa>
+				*He doesn't pay too much attention.*
+			</lousa>
+			<casaco>
+				*He doesn't pay too much attention*
+			</casaco>
+			<quadro>
+				*He stops and keeps looking at the picture.* 
+				[Louco1]:  
+				"You may not know, but I've seen many things. I already traveled all continents as an army. In those times I traveled all over Europe and I even visited the Apostolic Palace! I miss the times when I could do so many things, but what does it matter now? It didn't take me anywhere, just like the rest of my life."
+			</quadro>
+			
+			
+			
+			
+			
+			
+		</reactions>
+		<erro>
+			<erroDiagnostico1>
+				*The patient got worse in both physical and mental condition. The spasms and epileptic attacks are getting stronger as is his diffiiculties with communication. He has also started showing suicidal tendencies due to an acute melancholic state.*
+			</erroDiagnostico1>
+		
+			<erroDiagnostico2>
+				*The patient showed no response to the treatment he was given. His melancholic state grew worse as did his epileptic attacks. He was found in his cell, hanging from his own bed sheets around 08:45 on the 29th of august, 1895.*
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	<!--Louco 2-->
+	
+	<louco>
+	
+		<nome>[Louco2]</nome>
+		<sexo>Female</sexo>
+		<!--<doenca>Paralisia geral progressiva</doenca>-->
+		<doenca>Senil</doenca>
+		<chat>
+			<patient>
+				[Louco2]: 
+				"Are you... My... How do you say it? Doctor? Doctor, why am I... Here? Was it my family that... put me... here? Why... Doctor? Why? Were they who... put me here. They don't... love me. They never did. And why would they? I'll never be... loved. That's the truth. That's why I'm... here. Because... Nobody loves me. Isn't that true, doctor? Isn't that true? I know... It is. My... Husband died because of me, my children abandoned me, my own... sisters put me here... What else remained to me? All of them.. Left me behind... Behind."
+			</patient>
+			<analiseChat>
+				*The patient has problems in comunicating and remembering words. During the conversation, she started to cry helplessly while talking about her family and had to be taken by the doctors.*
+			</analiseChat>
+			
+		</chat>
+		
+		<reactions>
+			<jogos>
+				*She doesn't pay too much attention*
+			</jogos>
+			<janela>
+				*She starts staring at the window*
+				
+				[Louco2]:
+				"Look there, my... daughter going away... I can see from here. She's going... Like everyone else did... Like my husband... oh... Its my fault."
+			</janela>
+			<gramofone>
+				*She stays by the gramophone and listens to the music*
+				
+				[Louco2]: 
+				"How beautiful this music is! Is the one that played on my wedding day!"
+			</gramofone>
+			<livros>
+				[Louco2]:
+				"Look! Here's a photo of my wedding! It passed so much time... That I think I don't remember how much... And here was... My son's... graduation, and how handsome he is! And here's my... husband... He died years ago because of me, and here it is the photo of my wedding! It was so much time ago... That I think I don't remember how much..."
+			</livros>
+			<remedio>
+				*She took the false medicine without questioning*
+			</remedio>	
+			<lousa>
+				*She doesn't pay too much attention.*
+			</lousa>
+			<casaco>
+				*She surprises herself when approaching the jacket*
+				
+				[Louco2]:
+				"Oh, my husband's here! But... He died years ago... How can that be! I dont deserve to see you anymore"
+			</casaco>
+			<quadro>
+				*She doesn't pay too much attention*
+			</quadro>
+		</reactions>
+		<erro>
+			<erroDiagnostico1>
+				*He got worse in his physical and mental condition. His trembling is still strong and his comunication problems got worse. He is having suicidal thoughts e looks like he's melancolic*
+			</erroDiagnostico1>
+				*The patient is getting more stressed, causing emotional crisis and nonstop crying. while asking for her family. The comunication problems also got worse, and so did her memory. The patient grows dependent of the nurses for moving around and of medications to sleep.*
+			<erroDiagnostico2>
+				*The treatment had no effect, and the patient had difficulty in trusting the nurses, refusing their companion and even the sleeping pills. After today's lunch, she ran away through the halls, screaming in an emotional fit. She fell from the stairs and died at around 1:00pm , in August 30 of of 1895.*
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	<louco>
+		<nome>[LOUCO 3]</nome>
+		<sexo>Male</sexo>
+		<doenca>Morfináceo</doenca>
+		<chat>
+			<patient>
+				[Louco3]:
+				"Let me out of here! I shouldn't be here! I didn't do anything wrong, I'm just in pain!"
+			</patient>	
+			<analiseChat>
+				
+			</analiseChat>
+		</chat>
+		<reactions>
+			<gramofone>
+				*The patient looks irrritated by continuous auditive stimuli. He tried to change the songs a few times, but, frustrated, just moved away.*
+			</gramofone>
+			<quadro>
+				He doesn't pay too much attention
+			</quadro>
+			<jogos>
+				*He throws the pieces to the ground, trying to call for attention.*
+			</jogos>
+			<lousa>
+				*He writes angry notes on the blackboard, visibly irritated*
+			</lousa>
+			<livros>
+				*He doesn't pay too much attention.*
+			</livros>
+			<janela>
+				TRIGGER
+				*The patient stared the window for a brief time, until he started trying to brake the grates  in an attempt to escape. The security guards took him out, while he yelled that he was in pain, and that he didn't belong here.*
+			</janela>
+			<casaco>
+				*He doesn't pay too much attention*
+			</casaco>
+			<remedio>
+				*He complains that those aren't the right medicines*
+			</remedio>
+		</reactions>
+	
+		<erro>
+			<erroDiagnostico1>
+				*Irritability has grown, together with the trembling and the spasms. He is vert pale and has tried to run away several times. To control this situation, we've put him under special observation.*
+			</erroDiagnostico1>
+			<erroDiagnostico2>
+				*The situation hasn't got any better, the patient is irritable and refuses every help from nurses or doctors. A few hours ago,was noticed that he was missing, but any attempts to find him was fruitless, after a while the corpse of a security guard was found, but  still no sign of the patient.*
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	<louco>
+		<nome>[Louco4]</nome>
+		<sexo>Female</sexo>
+		<doenca>Esquizofrenia</doenca>
+		<chat>
+		
+			<patient>
+				[Louco4]:
+				...
+			</patient>
+			<analiseChat>
+				*She talks to herself in a loud voice, and talks alone, but you almost can't hear it.*
+			</analiseChat>
+		</chat>
+		<reactions>
+			
+			<gramofone>
+				*She picks up a sad music, stays by the gramophone and starts laughing*
+			</gramofone>
+			<quadro>
+				*At first, she approaches the picture and likes it, but it doesn't take too long for her to turn her back to it and ask us to take the picture off.*
+			</quadro>
+			<jogos>
+				*She doesn't pay too much attention*
+			</jogos>
+			<lousa>
+				*She doesn't pay too much attention*
+			</lousa>
+			<livros>
+				*She doesn't pay too much attention*
+			</livros>
+			<janela>
+				*She looks through the window many times, scared, after this, she points to nowhere, frightened*
+			</janela>
+			<casaco>
+				TRIGGER
+				*An evident irritation appears when the patient tries do get close to the jacket. She starts to yell at that object, asking it who he is, and also asking me, refusing to believe when I tell her that it's just a jacket. The doctors had to take her away to calm her down.*
+			</casaco>
+			<remedio>
+				*She throws the medicine away, thinking that may be poison on it*
+			</remedio>
+		</reactions>
+		
+		<erro>
+			<erroDiagnostico1>
+				*The patient doesn't interact with the doctors, only being cooperative at very rare moments. Besides that, we had to help her many times in the past days when she yelled that had had been somebody else in her cell. The comunication also gets increasingly difficult every day, because she doesn't pay attention at anything we say and interrupts us constantly.*
+			</erroDiagnostico1>
+			<erroDiagnostico2>
+				*He was organizing his reports, after one more day taking care of his patients, when a noise at the door frightened him. He went where the sound came from and opened the door. The patient waited for him at the other side, with the knife in her hands. At that night, he, and almost everyone that was at the hospital, was killed.*
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	<louco>
+		<nome>[Louco5]:</nome>
+		<sexo>Male</sexo>
+		<doenca>Obssessivo-Compulsivo</doenca>
+		
+		<chat>
+			<patient>
+				[Louco]:
+				"I've never been too such a messy place. Why am I here, anyway?"
+			</patient>
+			<analiseChat>
+				*He apparently doesn't have any issues when communicating with others, but looks excited and doesn't take too long until he tries to start fixing and cleaning again.*
+			</analiseChat>
+		</chat>
+			
+		<reactions>
+			
+			<gramofone>
+				*He doesn't pay too much attention*
+			</gramofone>
+			<quadro>
+				*He starts fixing the picture.*
+			</quadro>
+			<jogos>
+				*He organizes the pieces and the cards*
+			</jogos>
+			<lousa>
+				*He cleans the board*
+			</lousa>
+			<livros>
+				*He organizes the books by size.*
+			</livros>
+			<janela>
+				*He doesn't pay too much attention.*
+			</janela>
+			<casaco>
+				*He doesn't pay too much attention.*
+			</casaco>
+			<remedio>
+				*He organizes it, but doesn't take it.*
+			</remedio>
+		</reactions>
+		
+		<erro>
+			<erroDiagnostico1>
+				*The patient didn't respond to the treatment. Twiches are getting frequent and sometimes he needs help to go back to his cell, because of his obsessive thoughts. Also, he is getting stressed and becoming less comunicative.*
+			</erroDiagnostico1>
+			
+			<erroDiagnostico2>
+				*The patient is very stressed. He is always anxious and his twiches and spasms are very frequent, which creates difficulty in trying any cooperation or interaction with him. He is having problems making simple things as eating because of his obsessive thoughts.*
+			</erroDiagnostico2>
+		</erro>
+	</louco>
+	
+	
+</databaseLoucos>
+	

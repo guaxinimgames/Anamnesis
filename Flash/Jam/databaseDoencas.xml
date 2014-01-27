@@ -1,0 +1,124 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<base>
+	
+	<!--Louco1-->
+	<doenca>
+	
+		<nome>PARANOIA</nome>
+		<sintoma>Delusions: Believing in things that doesn't exist.</sintoma>
+		<sintoma>Egocentrism:The patient sees no one else but himself. Selfishness.</sintoma>
+		<sintoma>Obsessive behavior: Caring too much about details, rules and organization.</sintoma>
+		<sintoma>Persecution mania: Having always the feeling that you're being followed.</sintoma>
+		<sintoma>Lucidity: Being sober and having discernment.</sintoma>
+	
+	</doenca>
+	
+	<!--Louco2-->
+	<doenca>
+	
+		<nome>MANIAC-DEPRESSIVE PSYCHOSIS</nome>
+		<sintoma>Mood swing: The mood changes without a reason.</sintoma>
+		<sintoma>Lucidity: Being sober and having discernment.</sintoma>
+		<sintoma>Agitation or depression: A unpleasant feeling of extreme awakening, causing irritability, or excessive sadness and melancholy.</sintoma>
+		<sintoma>Impulsive reactions: Not thinking before acting.</sintoma>
+		<sintoma>Affective disorder: Problems with having any kind of relationship.</sintoma>
+	
+	</doenca>
+	
+	<!--Louco3-->
+	<doenca>
+	
+		<nome>ARTERIOSCLEROSIS</nome>
+		<sintoma>Insomnia: Incapacity of sleep.</sintoma>
+		<sintoma>Memory Loss: Problems with remembering things.</sintoma>
+		<sintoma>Comunication problems: Incapacity of talking to people, or understanding what people say.</sintoma>
+		<sintoma>Irritability: Getting irritated easily.</sintoma>
+		<sintoma>Delirious ideas: Believing in things that don't exist without a reason or experience with it.</sintoma>
+	
+	</doenca>
+	
+	<!--Louco4-->
+	<doenca>
+	
+		<nome>SYSTEMATIC PARAPHRENIA</nome>
+		<sintoma>Persecution mania: Have always the feeling that you're being followed.</sintoma>
+		<sintoma>Delusions of grandieur: The patient has a concept of himself unrealistic. He thinks he's much bigger than he actually is.</sintoma>
+		<sintoma>Hallucinations: Seing and hearing things that doesn't exist.</sintoma>
+		<sintoma>Egocentrism: The patient sees no one else but himself. Selfishness.</sintoma>
+		<sintoma>Delirious Ideas: Believing in things that don't exist without a reason or experience with it.</sintoma>
+	
+	</doenca>
+	
+	<!--Louco5-->
+	<doenca>
+	
+		<nome>HISTERIA</nome>
+		<sintoma>Affective disorder: Problems with having any kind of relationship.</sintoma>
+		<sintoma>Anxiety: Being nervous, having fear and worrying too much about everything.</sintoma>
+		<sintoma>Nonstop crying spells: Crying without control and not being able to stop.</sintoma>
+		<sintoma>Hypochondria: Always being sure that he's sick, without being.</sintoma>
+		<sintoma></sintoma>
+	
+	</doenca>
+	
+		<!--Louco6-->
+	<doenca>
+	
+		<nome>OBSESSIVE-COMPULSIVE</nome>
+		<sintoma>Obsessive thinking: Caring too much about a certain thought.</sintoma>
+		<sintoma>Repetitive manias: The patient needs to do certain things, and gets irritated or upset if he's not able to do it.</sintoma>
+		<sintoma>Anxiety/Agitation: Being nervous, having fear and a excessive sensation of awakening.</sintoma>
+		<sintoma>Intimate suffering or traumas: Something that happened in the past or a feeling that affects the patients behavior. </sintoma>
+		<sintoma>Twiches/Spasms: The body starts to make involuntary moves.</sintoma>
+		<sintoma>Exaggerate: The patient values too much what happens with him.</sintoma>
+	</doenca>
+	
+		<!--Louco7-->
+	<doenca>
+	
+		<nome>SQUIZOPHRENIA</nome>
+		<sintoma>Agitation:  A unpleasant feeling of extreme awakening, causing irritability.</sintoma>
+		<sintoma>Persecution mania: Having always the feeling that you're being followed.</sintoma>
+		<sintoma>Discordant actions: The patient can, in the a short period of time, make something and contradict himself.</sintoma>
+		<sintoma>Auditive hallucinations: Hearing things that doesn't exist.</sintoma>
+		<sintoma>Difference between feelings and how they're shown: The patient never shows what he's trully feeling. He may be laughing, but he's actually sad.</sintoma>
+	
+	</doenca>
+	
+		<!--Louco8-->
+	<doenca>
+	
+		<nome>GENERAL PROGRESSIVE PARALYSIS</nome>
+		<sintoma>Delusions of grandieur: The patient has a concept of himself unrealistic. He thinks he's much bigger than he actually is.</sintoma>
+		<sintoma>Absurd and incoherent thoughts: Thoughts don't have a logical order, sometimes making no sense.</sintoma>
+		<sintoma>Trembling: The body loses control of itself, causing a nonstop trembling.</sintoma>
+		<sintoma>Disturbances in speech and writing: The patient has problems in talking and writing, trading the order of some words and, even mixing up the letters.</sintoma>
+		<sintoma>Irregular march: The patient hasn't got any pattern when he walks.</sintoma>
+	
+	</doenca>
+	
+		<!--Louco9-->
+	<doenca>
+	
+		<nome>MORFINOMANIA</nome>
+		<sintoma>Addicted in morfine, usually because they suffer from violent pain.</sintoma>
+		<sintoma>Premature aging: Skinny, pale, dark circles under the eyes.</sintoma>
+		<sintoma>Trembling: The body loses control of itself, causing a nonstop trembling.</sintoma>
+		<sintoma>Brute and irritable: The patient becomes agressive and violent.</sintoma>
+		<sintoma>Low attention: Not being able to concetrate in nothing.</sintoma>
+	
+	</doenca>
+	
+		<!--Louco10-->
+	<doenca>
+	
+		<nome>SENILE DEMENTIA</nome>
+		<sintoma>Affective disorder: Problems with having any kind of relationship.</sintoma>
+		<sintoma>Delirious ideas: Believing in things that don't exist without a reason or experience with it.</sintoma>
+		<sintoma>Hallucinations: Seing and hearing things that doesn't exist.</sintoma>
+		<sintoma>Memory Loss: Problems with remembering things.</sintoma>
+		<sintoma>Loss of hair, teeth, etc...</sintoma>
+	
+	</doenca>	
+	
+</base>
